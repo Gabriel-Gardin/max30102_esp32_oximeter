@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/esp-idf/cmake_install.cmake")
+  include("/home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

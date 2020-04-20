@@ -1,4 +1,4 @@
-# Install script for directory: /home/gardin/Documents/dev/esp32_eclipse/oximetro/main
+# Install script for directory: /home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

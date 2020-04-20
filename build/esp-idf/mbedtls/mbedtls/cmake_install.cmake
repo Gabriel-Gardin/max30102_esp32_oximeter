@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/gardin/Documents/dev/esp32_eclipse/oximetro/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
-  include("/home/gardin/Documents/dev/esp32_eclipse/oximetro/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("/home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
+  include("/home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
 
 endif()
 

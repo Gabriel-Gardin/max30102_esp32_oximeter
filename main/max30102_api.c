@@ -49,7 +49,7 @@ void write_max30102_reg(uint8_t command, uint8_t reg)
 	uint8_t data[2];
 	data[0] = reg;
 	data[1] = command;
-	i2c_sensor_write(&data, 2);
+	i2c_sensor_write(data, 2);
 }
 
 

@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ 
@@ -24,7 +24,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 xtensa-esp32-elf-gcc (crosstool-NG esp-2019r2) 8.2.0
@@ -33,19 +33,19 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_0f42d"
-[1/2] Building C object CMakeFiles/cmTC_0f42d.dir/testCCompiler.c.obj
-[2/2] Linking C executable cmTC_0f42d
+Run Build Command:"/usr/bin/ninja" "cmTC_80f87"
+[1/2] Building C object CMakeFiles/cmTC_80f87.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_80f87
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_961a3"
-[1/2] Building C object CMakeFiles/cmTC_961a3.dir/CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_961a3
+Run Build Command:"/usr/bin/ninja" "cmTC_3170a"
+[1/2] Building C object CMakeFiles/cmTC_3170a.dir/CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_3170a
 Using built-in specs.
 COLLECT_GCC=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
 COLLECT_LTO_WRAPPER=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper
@@ -55,18 +55,18 @@ Thread model: posix
 gcc version 8.2.0 (crosstool-NG esp-2019r2) 
 COMPILER_PATH=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_961a3'
- /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGfCVXF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_961a3 /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_961a3.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_961a3'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_3170a'
+ /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpuB9eG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_3170a /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_3170a.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_3170a'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_961a3"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_961a3.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [[2/2] Linking C executable cmTC_961a3]
+  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_3170a"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_3170a.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [[2/2] Linking C executable cmTC_3170a]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper]
@@ -76,27 +76,27 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.2.0 (crosstool-NG esp-2019r2) ]
   ignore line: [COMPILER_PATH=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_961a3']
-  link line: [ /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGfCVXF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_961a3 /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_961a3.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_3170a']
+  link line: [ /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpuB9eG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_3170a /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_3170a.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o]
     arg [/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccGfCVXF.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpuB9eG.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_961a3] ==> ignore
+    arg [cmTC_3170a] ==> ignore
     arg [/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> ignore
     arg [/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o] ==> ignore
     arg [/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o] ==> ignore
     arg [-L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> dir [/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0]
     arg [-L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc]
     arg [-L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_961a3.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_3170a.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
     arg [-lnosys] ==> lib [nosys]
@@ -115,11 +115,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_aaf2f"
-[1/2] Building C object CMakeFiles/cmTC_aaf2f.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_aaf2f
+Run Build Command:"/usr/bin/ninja" "cmTC_56c98"
+[1/2] Building C object CMakeFiles/cmTC_56c98.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_56c98
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -129,11 +129,11 @@ Run Build Command:"/usr/bin/ninja" "cmTC_aaf2f"
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_7b008"
-[1/2] Building C object CMakeFiles/cmTC_7b008.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_7b008
+Run Build Command:"/usr/bin/ninja" "cmTC_aa9c2"
+[1/2] Building C object CMakeFiles/cmTC_aa9c2.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_aa9c2
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -143,11 +143,11 @@ Run Build Command:"/usr/bin/ninja" "cmTC_7b008"
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_4cf31"
-[1/2] Building C object CMakeFiles/cmTC_4cf31.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_4cf31
+Run Build Command:"/usr/bin/ninja" "cmTC_d8f75"
+[1/2] Building C object CMakeFiles/cmTC_d8f75.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_d8f75
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -155,19 +155,19 @@ Run Build Command:"/usr/bin/ninja" "cmTC_4cf31"
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_0dff5"
-[1/2] Building CXX object CMakeFiles/cmTC_0dff5.dir/testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_0dff5
+Run Build Command:"/usr/bin/ninja" "cmTC_b4763"
+[1/2] Building CXX object CMakeFiles/cmTC_b4763.dir/testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_b4763
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_1eedb"
-[1/2] Building CXX object CMakeFiles/cmTC_1eedb.dir/CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_1eedb
+Run Build Command:"/usr/bin/ninja" "cmTC_bd957"
+[1/2] Building CXX object CMakeFiles/cmTC_bd957.dir/CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_bd957
 Using built-in specs.
 COLLECT_GCC=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
 COLLECT_LTO_WRAPPER=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper
@@ -177,18 +177,18 @@ Thread model: posix
 gcc version 8.2.0 (crosstool-NG esp-2019r2) 
 COMPILER_PATH=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_1eedb'
- /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQ2K6fu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_1eedb /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_1eedb.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_1eedb'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_bd957'
+ /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cclqitVp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_bd957 /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_bd957.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_bd957'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_1eedb"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_1eedb.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [[2/2] Linking CXX executable cmTC_1eedb]
+  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_bd957"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_bd957.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [[2/2] Linking CXX executable cmTC_bd957]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper]
@@ -198,27 +198,27 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.2.0 (crosstool-NG esp-2019r2) ]
   ignore line: [COMPILER_PATH=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_1eedb']
-  link line: [ /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQ2K6fu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_1eedb /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_1eedb.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_bd957']
+  link line: [ /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cclqitVp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_bd957 /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_bd957.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o]
     arg [/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccQ2K6fu.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cclqitVp.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1eedb] ==> ignore
+    arg [cmTC_bd957] ==> ignore
     arg [/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> ignore
     arg [/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o] ==> ignore
     arg [/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o] ==> ignore
     arg [-L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> dir [/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0]
     arg [-L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc]
     arg [-L/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [/home/gardin/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_1eedb.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_bd957.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -239,11 +239,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_715d6"
-[1/2] Building CXX object CMakeFiles/cmTC_715d6.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_715d6
+Run Build Command:"/usr/bin/ninja" "cmTC_bf89d"
+[1/2] Building CXX object CMakeFiles/cmTC_bf89d.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_bf89d
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -306,11 +306,11 @@ Run Build Command:"/usr/bin/ninja" "cmTC_715d6"
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_5d7e9"
-[1/2] Building CXX object CMakeFiles/cmTC_5d7e9.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_5d7e9
+Run Build Command:"/usr/bin/ninja" "cmTC_70c5a"
+[1/2] Building CXX object CMakeFiles/cmTC_70c5a.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_70c5a
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -373,11 +373,11 @@ Run Build Command:"/usr/bin/ninja" "cmTC_5d7e9"
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_47ac2"
-[1/2] Building CXX object CMakeFiles/cmTC_47ac2.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_47ac2
+Run Build Command:"/usr/bin/ninja" "cmTC_aaa58"
+[1/2] Building CXX object CMakeFiles/cmTC_aaa58.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_aaa58
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -440,11 +440,11 @@ Run Build Command:"/usr/bin/ninja" "cmTC_47ac2"
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/gardin/Documents/dev/esp32_eclipse/oximetro/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/gardin/Documents/dev/esp32_eclipse/max30102_esp32_oximeter/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_d6928"
-[1/2] Building CXX object CMakeFiles/cmTC_d6928.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_d6928
+Run Build Command:"/usr/bin/ninja" "cmTC_77829"
+[1/2] Building CXX object CMakeFiles/cmTC_77829.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_77829
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
